@@ -1,0 +1,273 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap'); 
+
+
+
+* {
+  margin: 0; 
+  padding: 0; 
+  box-sizing: border-box; 
+  font-family: "Inter", sans-serif;
+} 
+
+
+
+
+
+a {
+  text-decoration: none; 
+  color: #0e0e55; 
+  transition: all 0.3s ease; 
+} 
+
+a:hover { 
+  color: #780606 !important; 
+  font-weight: bold; 
+} 
+
+
+
+
+
+body {
+  padding: 20px; 
+  animation: fadeInAnimation ease 2s; 
+}
+
+html {
+  scroll-behavior: smooth; /* Smooth scrolling */
+}
+
+
+
+
+
+nav { 
+  display: flex; /* Flexbox layout mode */
+  gap: 20px; /* Gap between logo and links */ 
+  position: sticky; /* Makes the nav bar stick to the top */
+  top: 0; /* Keeps the nav at the top of the page */
+  z-index: 1000; /* Ensures it stays on top of other elements */
+   background-color: white; /* Add a background to ensure visibility */
+  border-bottom: 2px solid #ccc; /* Optional: adds a border for styling */
+  padding: 20px 0; /* Adjust padding as needed */
+}
+
+nav .logo img { 
+  height: 70px; 
+  width: 70px;  
+  border-radius: 48px; 
+  display: flex; 
+  align-items: center; 
+  justify-content: center; 
+  transition: transform 0.3s ease;  
+} 
+
+nav .logo img:hover { 
+  transform: scale(1.3);
+} 
+
+nav .links {
+  height: 64px; 
+  display: flex; 
+  align-items: center; 
+  justify-content: space-between; 
+  width: 100%;  
+  padding: 0 66px;  
+  border: 3px solid #0e0e55; 
+  border-radius: 48px;
+} 
+
+nav .links a {
+  font-size: 20px;
+} 
+
+nav .links a.active { 
+  font-weight: bold; 
+  color: #780606;
+} 
+
+
+
+
+
+.about {
+  display: flex; 
+  align-items: center; 
+  justify-content: space-between; 
+  padding: 60px 42px; 
+  border: 1px solid rgb(226, 219, 219); 
+  border-radius: 14px; 
+  margin-top: 20px;
+} 
+
+.about .left h3 {
+  color: #0e0e55; 
+  font-size: 22px; 
+  font-weight: 570; 
+  transition: all 0.3s ease;
+} 
+
+.about .left h3:hover {
+  color: #780606;
+  transition: all 0.3s ease; 
+  font-size: 30px; 
+}
+
+.about .left .info {
+  margin-top: 30px; 
+  display: flex; 
+  flex-direction: column; 
+  gap: 20px;
+} 
+
+.about .left .info h4 {
+  font-size: 50px; 
+  color: #780606; 
+  transition: all 0.3s ease;
+} 
+
+.about .left .info h4:hover {
+  color: #0e0e55;
+  transition: all 0.3s ease; 
+  font-size: 100px; 
+} 
+
+.about .left .info p {
+  font-size: 20px; 
+  color: rgb(38, 39, 40); 
+  font-weight: 550;  
+  margin-right: 50px;
+}  
+
+.about .right img {
+  width: 300px; 
+  height: 300px; 
+  margin-top: 30px; 
+  border-radius: 150px;
+  transition: transform 0.3s ease;
+} 
+
+.about .right img:hover {
+  transform: scale(0.9);
+}
+
+
+
+
+
+#Sujet, #interviews, #contact, #agora {
+  padding: 60px 20px;
+  margin-top: 40px;
+  border: 2px solid #ccc;
+  border-radius: 8px;
+}
+
+
+#Sujet {
+  padding: 40px;
+  margin-top: 20px;
+  border: 2px solid #ccc;
+  border-radius: 8px;
+} 
+
+#Sujet h2 {
+  font-size: 32px; 
+  color: #0e0e55; 
+  font-weight: bold; 
+  margin-bottom: 20px;
+  line-height: 1.4; 
+} 
+
+#Sujet h3 {
+  font-size: 20px; 
+  font-weight: bold; 
+  text-decoration-line: underline; 
+} 
+
+#Sujet p{
+  font-size: 20px; 
+  margin-top: 30px;
+}  
+
+#Sujet h5{
+  font-weight: bold; 
+  font-size: 22px; 
+  margin-top: 30px;
+}
+
+
+
+#interviews{
+  padding: 40px;
+  margin-top: 20px;
+  border: 2px solid #ccc;
+  border-radius: 8px;
+} 
+
+#interviews h2{
+  font-size: 32px; 
+  color: #0e0e55; 
+  font-weight: bold; 
+  margin-bottom: 20px; 
+  line-height: 1.4;
+}  
+
+#interviews h3 { 
+  font-size: 20px; 
+  font-weight: bold; 
+} 
+
+#interviews p{
+  font-size: 19px; 
+  margin-top: 30px;
+} 
+
+#interviews h5{
+  margin-top: 20px; 
+  font-weight: bold; 
+  font-size: 20px; 
+  text-decoration: underline;
+}
+
+
+
+
+
+#contact {
+  padding: 40px;
+  margin-top: 20px;
+  border: 2px solid #ccc;
+  border-radius: 8px;
+} 
+
+#contact h2{
+  font-size: 32px; 
+  color: #0e0e55; 
+  font-weight: bold; 
+  margin-bottom: 20px;
+  line-height: 1.4; 
+} 
+
+#contact h4{
+  font-weight: bold;
+} 
+
+
+
+
+
+#agora {
+  padding: 40px;
+  margin-top: 20px;
+  border: 2px solid #ccc;
+  border-radius: 8px;
+} 
+
+#agora h2{
+  font-size: 32px; 
+  color: #0e0e55; 
+  font-weight: bold; 
+  margin-bottom: 20px;
+  line-height: 1.4; 
+}
+
